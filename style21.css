@@ -1,0 +1,269 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: #E9E7E6;
+}
+.navbar{
+    position: fixed;
+    background: linear-gradient(to right , #3D3D3D,#3D3D3D,#3D3D3D, #FFBB70);
+    top: 0;
+    z-index: 1000;
+    width: 100%;}
+#navbar img {
+    margin-right: 3px; 
+    width: 50px;
+    height: 50px;
+}  
+#navbar .navbar-nav .nav-link {
+    font-family: "Kaushan Script", cursive;
+    color: #E9E7E6;
+}
+#navbar .navbar-brand {
+    font-family: "Kaushan Script", cursive;
+    color: #E9E7E6;
+}
+#navbar .navbar-toggler-icon {
+    background-color: #3D3D3D; 
+    border-color: #3D3D3D; 
+    border-style: solid; 
+    border-width: 1px; 
+    border-radius: 20%;
+}
+.modal-body p{
+    font-weight: bold;
+    color: #E9E7E6; 
+}
+.modal-content {
+    background-color: #141E46;
+  }
+.modal-body {
+    background-color: #141E46; 
+}
+.modal-title{
+    background-color: #141E46;
+    color: #E9E7E6;
+    font-family: "Kaushan Script", cursive;
+}
+.btn-custom-close {
+    border-color: #E9E7E6;
+    background-color: #FFBB70;
+    color: #E9E7E6; 
+}
+.btn-custom-close:hover {
+    border-color: #FFBB70;
+    background-color: #E9E7E6; 
+    color: #141E46; 
+}
+#imf .card-title{
+    font-family: "Kaushan Script", cursive;
+    color: #E9E7E6;
+}
+#imf img {
+    max-width: 100%;
+    height: auto;
+}  
+#imf h2{
+    font-family: "Kaushan Script", cursive;
+}
+#imf p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#drink .card-title{
+    font-family: "Kaushan Script", cursive;
+    color: #E9E7E6;
+}
+#drink img {
+    max-width: 100%;
+    height: auto;
+}  
+#drink h2{
+    font-family: "Kaushan Script", cursive;
+}
+#drink p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#about .card-title{
+    font-family: "Kaushan Script", cursive;
+    color: #E9E7E6;
+}
+#about img {
+    max-width: 100%;
+    height: auto;
+}  
+#about h2{
+    font-family: "Kaushan Script", cursive;
+}
+#about p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#drink{
+    background: linear-gradient(to bottom right, #141E46,#141E46, #FFBB70);
+}
+#drink h2{
+    color: #E9E7E6;
+    font-family: "Kaushan Script", cursive;    
+}
+#drink .card-title {
+    color: #141E46;
+}
+.btn-primary{
+    border-width: 3px;
+    border-radius: 20px;
+    background-color: #FFBB70;
+    border-color: #141E46;
+    color: rgb(255, 255, 255); 
+}
+#drink .card-body{
+    background-color: #E9E7E6;
+}
+#drink .card-body .btn-primary:hover {
+    background-color: #141E46; 
+    border-color: #FFBB70; 
+}
+.list-group-item {
+    font-family: "Kaushan Script", cursive;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+}    
+#drink .card {
+    border-width: 2px; 
+    border-style: solid; 
+    border-color: #FFBB70; 
+}
+#imf .list-group-item {
+    font-family: "Kaushan Script", cursive;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+}
+#imf .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}  
+#imf .card {
+    border-width: 3px;
+    background-color: #FFBB70;
+}  
+#imf .card-body{
+    background-color: #141E46;
+}
+#imf .card-body .btn-primary{
+    background-color: #FFBB70; 
+    border-color: #E9E7E6; 
+}
+#imf .card-body .btn-primary:hover {
+    background-color: #141E46; 
+    border-color: #FFBB70; 
+}
+#about .list-group-item {
+    font-family: "Kaushan Script", cursive;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+}
+#about .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}  
+#about .card {
+    border-width: 3px;
+    background-color: #FFBB70;
+}  
+#about .card-body{
+    background-color: #141E46;
+}
+#about .card-body .btn-primary{
+    background-color: #FFBB70; 
+    border-color: #E9E7E6; 
+}
+#about .card-body .btn-primary:hover {
+    background-color: #141E46; 
+    border-color: #FFBB70; 
+}
+#contact {
+    border-color: #000000 ;
+    padding: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+}
+#contact h2{
+    font-family: "Kaushan Script", cursive;
+    text-align: center;
+    color: #FFBB70;
+}
+#contact p{
+    text-align: center;
+    color: #FFBB70;
+}
+#contact img{
+    border-radius: 13px;
+} 
+.copyright {
+    font-family: "Kaushan Script", cursive;
+    color: #FFBB70;
+}
+#navbar .dropdown-menu {
+    background: linear-gradient(to right, #3D3D3D,#3D3D3D,#3D3D3D, #FFBB70);
+    border: none;
+    border-radius: none;
+}
+
+#navbar .dropdown-menu a {
+    font-family: "Kaushan Script", cursive ;
+    color: #E9E7E6; 
+    font-size: 16px; 
+    transition: all 0.3s ease;
+    animation: slideDown 0.5s ease;
+}
+#navbar .dropdown-menu a:hover {
+    background-color: #FFBB70;
+}
+#navbar .navbar-toggler {
+    border: none;
+}
+#navbar .navbar-toggler-icon {
+    background-color: #3D3D3D;
+}
+#navbar .navbar-nav .nav-link {
+    color: #E9E7E6;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+#navbar .navbar-nav .nav-link:hover {
+    color: #141E46;
+}
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.copy-right {
+    color: #141E46; 
+    font-weight: bold;
+    font-size: 18px;
+}
+.contact-info {
+    font-family: "Kaushan Script", cursive ;
+    color: #FFBB70;
+    font-size: 16px;
+}
+hr{
+    width: 100%; 
+}
+.middle-line {
+    border-top-width: 1px; 
+    border-top-color: #141E46; 
+}

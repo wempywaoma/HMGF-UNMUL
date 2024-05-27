@@ -1,0 +1,30 @@
+#psdm .card-body a{
+    font-family:  "Jacquarda Bastarda 9 Charted", serif;
+    text-align: left;
+    font-weight: bold;
+}
+#proker {
+    border-radius: 5px;
+    padding: 5px;
+    background: linear-gradient(to right, #9F0D0F,#3D3D3D,#3D3D3D,#3D3D3D,#3D3D3D,#3D3D3D, #9F0D0F);
+}
+#proker h5{
+    font-size: x-large;
+    font-weight:bold;
+    font-family: "Kaushan Script", cursive ;
+    color: #9F0D0F;
+}
+#proker p{
+    font-family:  "Jacquarda Bastarda 9 Charted", serif;
+    color: #E9E7E6;
+}
+#proker img{
+    border-radius: 5px;
+    width: 80%;
+    height: 80%;
+}
+.middle-line {
+    width: 80%;
+    border-top-width: 1px; 
+    border-top-color: #9F0D0F; 
+}
