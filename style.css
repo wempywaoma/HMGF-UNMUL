@@ -3,7 +3,10 @@ html {
   }
 
 body{
-    background: img src:https://www.freepik.com/free-photo/aerial-view-lake_10658237.htm#fromView=search&page=1&position=7&uuid=96995797-d4fb-4560-9cc4-873ca8037a2d;
+    background: url("https://plus.unsplash.com/premium_photo-1691434171020-e3551307e7e6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fGJhY2tncm91bmQlMjBwb3J0cmFpdCUyMGd1bnVuZ3xlbnwwfHwwfHx8MA%3D%3D")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .navbar{
     position: fixed;
